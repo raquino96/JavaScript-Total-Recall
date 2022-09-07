@@ -47,3 +47,67 @@ if (animal == 'liger') {
 } else {
     console.log('Hey! You\'re not a liger!')
 }
+
+// Drivers Ed
+let userAge = 15
+
+if (userAge >= 16) {
+    console.log('Here are the keys!')
+} else {
+    console.log('Sorry, you\'re too young')
+}
+
+// Loops
+// for (let i = 0; i < 11; i++) {
+//     console.log(i)
+// }
+
+// for (let p = 10; p <= 400; p++) {
+//     console.log(p)
+// }
+
+// for (let j = 12; j <4001;j=j + 3) {
+//     console.log(j)
+//   }
+
+let nums = 0;
+
+while (nums < 100) {
+    nums++;
+    if (nums % 2 == 0) {
+        console.log(`${nums} is an even number`);
+    } else {
+        console.log(nums);
+    }
+}
+
+let numsfive = 0;
+
+while (numsfive < 100) {
+    numsfive++;
+    if (numsfive % 5 == 0 && numsfive %3 == 0){
+      console.log(`I found a ${numsfive}. High five! Also, Three is a crowd.`);
+      }else if(numsfive % 5 == 0) {
+        console.log(`I found a ${numsfive}. High five!`);
+    } else if (numsfive % 3 == 0) {
+        console.log(`I found a ${numsfive}. Three is a crowd.`);
+    }
+}
+
+let bankAccount = 0
+
+for (let b = 0; b < 11; b++) {
+  bankAccount += b;
+  console.log(`current iteration is ${b} and the current total of your account is ${bankAccount}`);
+  }
+
+  for (let b = 0; b < 101; b++) {
+    bankAccount += b;
+    console.log(`current iteration is ${b} and the current total of your account is ${bankAccount}`);
+    if (b >= 100) {
+      console.log(`We are now multiplying your total balance by two, and your new total is ${bankAccount * 2}`)
+    } else {
+      
+    }
+    }
+
